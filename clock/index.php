@@ -1,4 +1,10 @@
-<?php include('inc/header.php'); ?>
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Live Clock</title>
+	<link href="inc/style.css" rel="stylesheet" type="text/javascript" />
+</head>
+<body>
 
 <table id="table">
 <th>Your Current Time:</th>
@@ -12,4 +18,5 @@
 
 <script type="text/javascript" src="clock.js"></script>
 
-<?php include('inc/footer.php'); ?>
+</body>
+</html>
