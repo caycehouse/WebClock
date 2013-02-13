@@ -7,16 +7,27 @@
 <body>
 
 <table id="table">
-<th>Your Current Time:</th>
+<th id="title">Your Current Time:</th>
 <tr>
-<td bgcolor="#FFFFFF"><div id="time"></div></td>
+<td id="flipThatBody"><div id="time"></div></td>
 </tr>
 </table>
 
 <br />
-<div id="copy">&copy; 2013 Cayce House<div>
+<div id="copy" class="flipThat">&copy; 2013 Cayce House<div>
 
-<script type="text/javascript" src="clock.js"></script>
+<table id="color">
+<tr>
+<td><a id="colorLinkRed" href="javascript:changeBG(0)">Red</a></td>
+<td><a id="colorLinkGreen" href="javascript:changeBG(1)">Green</a></td>
+<td><a id="colorLinkBlue" href="javascript:changeBG(2)">Blue</a></td>
+<td><a id="colorLinkWhite" href="javascript:changeBG(3)">White</a></td>
+<td><a id="colorLinkBlack" href="javascript:changeBG(4)">Black</a></td>
+</tr>
+</table>
+
+<script type="text/javascript" src="inc/clock.js"></script>
+<script type="text/javascript" src="inc/color.js"></script>
 
 </body>
 </html>

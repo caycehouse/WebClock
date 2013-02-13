@@ -1,3 +1,5 @@
+<!--
+
 function displayDate() {
 
 	var d = new Date();
@@ -35,3 +37,5 @@ function displayDate() {
 window.setInterval(function() {
 	displayDate();
 }, 1000);
+
+//-->

@@ -1,5 +1,11 @@
-body{background-color:#000000;}
-#table{color:#FFFFFF;text-align:center;border: 0px;margin-left: auto; margin-right: auto;margin-top: 100px;}
+A:link{text-decoration: none;color: white;}
+A:visited{text-decoration: none;color: white;}
+A:active{text-decoration: none;color: white;}
+A:hover{text-decoration: underline;}
+
+#table{text-align:center;border: 0px;margin-left: auto; margin-right: auto;margin-top: 100px;}
 #table th{font-size:10vw;}
-#table td{color:#000000;background-color:#FFFFFF;font-size:13vw;}
-#copy{color:#FFFFFF;text-align:center;font-size:10%}
+#table td{font-size:13vw;}
+#copy{text-align:center;font-size:10%;}
+#color{text-align:center;border: 0px;margin-left: auto; margin-right: auto;margin-top: 100px;}
+#color td{font-size:2vw;width:100px;}
