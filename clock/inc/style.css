@@ -4,8 +4,8 @@ A:active{text-decoration: none;}
 A:hover{text-decoration: underline;}
 
 #table{text-align:center;border: 0px;margin-left: auto; margin-right: auto;margin-top: 100px;}
-#table th{font-size:10vw;}
-#table td{font-size:13vw;}
-#copy{text-align:center;font-size:10%;}
+#table th{font-size:600%;}
+#table td{font-size:800%;}
+#copy{text-align:center;font-size:15%;}
 #color{text-align:center;border: 0px;margin-left: auto; margin-right: auto;margin-top: 100px;}
-#color td{font-size:2vw;width:100px;}
+#color td{font-size:1000%;width:150px;}
